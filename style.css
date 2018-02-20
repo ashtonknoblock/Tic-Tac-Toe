@@ -1,13 +1,38 @@
+body {
+    background: green;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
 td {
-    border: 1px solid blue;
+    border: 1px solid rgb(251, 255, 0);
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    font-family: 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 4em;
+    color: aquamarine;
+    cursor: pointer;
   }
   
   td:hover {
-    background: orange;
+    background: rgba(0, 0, 0, 0.411);
   }
   
   table {
     border: 1px solid green;
-    width: 500px;
-    height:  500px;
   }
+
+  td:active {
+      background: rgb(0, 0, 0);
+  }
+h1 {
+    text-align: center;
+    font-size: 4em;
+    color: aquamarine;
+    text-decoration: underline;
+}
+
